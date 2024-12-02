@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "statikpro",
+  "private_key_id": "490012c2e50cc441f33261c5c21f4655ab3fbce6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCij+/4JwXo/nfg\nK5lp1iRSyduqPjF1S/cFLY09TpPE/vcjLZ0vy2xNJZ7vh3d3wgcAeh6EmypUmYxx\nJ1j3xSTvEDmflkqwkyrYEz0Q2iD2WlMZNRswYOQyjOq50VF0aHA831MOgpy9yAYb\nz8jtj0Oet/61VfJjEGr80I27zc8LSztqiWrR6cZVMLtensXSaIcU7kPKRPJw1z7C\nm3u9KCT66sF0BO7wUNvOxzTJ0Um38RLAXty/oqmiDyDIydssqEkC4TX8rWldCNvT\np+vwzHr03JN22SZzCTi/ZuCbwcL+vmGXlFhk8dBFbbq4+Va4hwnNhsBE3WULkEBh\nurM7Mwe5AgMBAAECggEAJn3qllm3HopSnDP2qYbZJvlBGDiNwXZxUTqN/PxEJRsy\nLZQ5af3C8Sl9Tr5G3YaF3ekMnN2Y0lthU9G7UT/PFQREgLM3kEPomy1DAmCD+ZE9\np/RZMcVfg1C2q7USknvAR8mhgwgOUSmxuJgkvYt0uXpbx1hIgoh6rM49IUEES2nu\nDRtg0XbQyXzU/p9ILbwX+ajYEhQdtjoDFQngtEZA00NPTGLgWqfbT6Rs6A5pIKhO\nLgmx3cB9+TaGAN0uLeHhl/Ud6fvFSTMJjdgunt+BhFLrb0XOncz3+YOThAa2CNN2\nQLRNwtfJyMG7EynqHg14+0nhTUyS8SUITcbU5xfUOQKBgQDcQ/QyhWSKE+UChRaW\nIhuD4VCJ/RSqYMhB8m3qMHcpPsl6hEiu5yb04DDrgVogSrMEz0vhe3SkN84mvXme\nMaAC2+TAQ+qnKYQxdUDd1yfjg9RGLGmk7nlVpv5Mcdd+m9bZnNTAIqnlPCJJkgL7\n1VcUUC4Poo/MfJcNfHFK/SC5wwKBgQC873Wc6qIquvNjqxrdOFSSqdHkxwQB0B7v\nXgk/GF80yhWOE5BbIay5Pl7p0tp0PUdP26FRp1IWizThgb396WErGZQzfBcR9u+e\nk0vT0MHZy4+D3AzjjJ6SttHg4ZaxRiRarRJNiq1UxdzytGQa0FJSUnCqtWidLqof\nFgAEeFOk0wKBgGwpWmLsqgA74LsqC3tR6F0MaXY5Nsqrl+r6VwsnHXy9fkaRaveo\nPrME3EDpVg6BYAM+oC5rZ020saDIbk5GZCLDREM9lp7bfjSjNWU6YDYS6ExFRuNc\nz2xGAp4bUQy1Df3yS27GFtOggd3Ku3havNYWwWegFij+DVbsAt4mCsntAoGAHq37\nuTlYj/u/ngWg3R9SjGZLEQ1IF0tGWrQ4aCh6/UV7bpC6tjGnrIT2QJ3en1V8CPmv\nHmU/LS35rky1H1AQWUFUEXArBt3EV0mv3HtfnxAxA8ZtyV2COmy5c/ztzWeIa7kC\n6diFAOkIUdj9EGWXmIqOhQnkLPHw6g9WfWNUocUCgYAq0ZuIU1rWsq0UxnAyHh8g\nBqS3akc6FNZ7AgMghPyIG1B9R/E++YZlIyDgHrB5iHqiEf/5UarMWgF3/m0yY0bu\nyWMYqAF9mXntuFj13DiygYGK38MBo7mbKi/nN8+uiz2+/9m7JGckhzw1Sxzw5pMW\nYj/AGb8S8JQ/vkneWeVO+A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "nachrichten@statikpro.iam.gserviceaccount.com",
+  "client_id": "108109950641465460911",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nachrichten%40statikpro.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

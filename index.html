@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StatikPro Engineering</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <style>
+        /* Basis-Reset und Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #003366;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #003366;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Flexibles Layout für die Texte und Leistungen */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .grid-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto 20px;
+            width: 150px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Willkommen, StatikPro Engineering – Ihr Partner für sichere Bauprojekte!</h1>
+        <img src="logo.webp" alt="StatikPro Logo" class="logo">
+
+        <p><strong>StatikPro – Zuverlässige Fachleute für innovative und tragfähige Lösungen.</strong></p>
+
+        <nav>
+            <a href="ueber-uns.html">Über Uns</a> |
+            <a href="referenzen.html">Referenzen</a> |
+            <a href="kontakt.html">Kontakt</a> |
+            <a href="Imp.HTML">Impressum</a>
+        </nav>
+
+        <h2>Unsere Leistungen</h2>
+
+        <div class="grid">
+            <div class="grid-item">
+                <h3>Vor- und Entwurfsplanung</h3>
+                <p>3D-Modellierung des Objekts: Erstellung detaillierter dreidimensionaler Modelle zur Visualisierung und Planung.</p>
+                <p>Vordimensionierung der Haupttragglieder: Erste Dimensionierung der tragenden Strukturen, um die grundsätzliche Tragfähigkeit zu gewährleisten.</p>
+            </div>
+
+            <div class="grid-item">
+                <h3>Genehmigungsplanung</h3>
+                <p>Verfeinerung des 3D-Modells: Detaillierte Anpassung und Optimierung des Modells entsprechend den Genehmigungsanforderungen.</p>
+                <p>Erstellung der erforderlichen statischen Berechnungen und Positionspläne: Präzise Berechnungen und Pläne zur Erfüllung aller gesetzlichen Anforderungen und zur Sicherstellung der Stabilität.</p>
+            </div>
+
+            <div class="grid-item">
+                <h3>Ausführungsplanung</h3>
+                <p>Erstellung von Schal-, Konstruktions- und Bewehrungsplänen: Detaillierte Pläne für die Umsetzung der Bauarbeiten.</p>
+                <p>Begleitung bei der Ausführung: Unterstützung und Überwachung der Bauausführung zur Sicherstellung der korrekten Umsetzung der Pläne.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
