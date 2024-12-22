@@ -25,7 +25,7 @@ Die Projektverantwortlichen sind dafür verantwortlich, die Standards dieses Ver
 ## 📬 Meldung von Verstößen
 
 Verstöße gegen diesen Verhaltenskodex können gemeldet werden an:
-📧 [kontakt@statikpro-planung.de](mailto:kontakt@statikpro-planung.de)
+📧 [statikpro.engineering@gmail.com](mailto:statikpro.engineering@gmail.com)
 
 Alle Beschwerden werden vertraulich behandelt.
 
