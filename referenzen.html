@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<body style="background-color:  #f4f4f9;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Referenzen</title>
@@ -12,40 +11,96 @@
             margin: 0;
             padding: 0;
         }
+
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
         }
+
         h1 {
             text-align: center;
             color: #333;
-        }
-        .reference {
-            background-color: white;
-            border-radius: 8px;
-            padding: 20px;
             margin-bottom: 30px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .reference img {
-            width: 100%;
-            max-width: 600px;
-            border-radius: 8px;
-            margin-top: 10px;
+
+        .nav {
+            text-align: center;
+            margin-bottom: 30px;
         }
-        .reference h2 {
-            color: #555;
-        }
-        .reference p {
-            color: #666;
-        }
-        a {
+
+        .nav a {
             text-decoration: none;
             color: #007BFF;
+            margin: 0 10px;
+            font-weight: bold;
         }
-        a:hover {
+
+        .nav a:hover {
             text-decoration: underline;
+        }
+
+        /* Projektbox mit Hintergrundbild */
+        .reference {
+            position: relative;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            height: 300px; /* <-- Bildhöhe kleiner gemacht */
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            color: white;
+        }
+
+        /* Dunkler Verlauf unten */
+        .reference::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+        }
+
+        /* Textbox oben links, schmaler */
+        .reference-content {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 1;
+            padding: 15px 20px;
+            background: rgba(0, 0, 0, 0.55);
+            border-radius: 8px;
+            max-width: 55%; /* <-- Textfeld nicht so breit */
+        }
+
+        .reference-content h2 {
+            margin: 0 0 8px;
+            font-size: 1.3em;
+        }
+
+        .reference-content p {
+            margin: 0;
+            line-height: 1.5;
+            font-size: 0.95em;
+        }
+
+        @media (max-width: 600px) {
+            .reference {
+                height: 220px;
+            }
+            .reference-content {
+                max-width: 80%;
+                top: 10px;
+                left: 10px;
+                padding: 10px 12px;
+            }
+            .reference-content h2 {
+                font-size: 1.1em;
+            }
+            .reference-content p {
+                font-size: 0.85em;
+            }
         }
     </style>
 </head>
@@ -53,29 +108,38 @@
 
     <div class="container">
         <h1>Unsere Referenzen</h1>
-      <a href="index.html">Zurück zur Hauptseite</a> |
-      <a href="ueber-uns.html">Über Uns</a> |
-      <a href="kontakt.html">Kontakt</a> |
-      <a href="Imp.HTML">Impressum</a>
-        <div class="reference">
-            <h2>Projekt 1: Neubau eines Bürogebäudes</h2>
-            <p>Dieses Projekt umfasst die Tragwerksplanung eines modernen Bürogebäudes im Stadtzentrum. Das Gebäude bietet 12.000 Quadratmeter Bürofläche und wurde in nur 18 Monaten fertiggestellt.</p>
-            <img src="projekt1.jpg" alt="Bürogebäude Neubau">
+
+        <div class="nav">
+            <a href="index.html">Startseite</a> |
+            <a href="ueber-uns.html">Über Uns</a> |
+            <a href="kontakt.html">Kontakt</a> |
+            <a href="imp.html">Impressum</a>
         </div>
 
-        <div class="reference">
-            <h2>Projekt 2: Sanierung eines historischen Hauses</h2>
-            <p>Bei diesem Projekt handelte es sich um die komplexe Sanierung eines 1895 erbauten historischen Hauses. Die Tragwerksplanung erforderte eine besondere Berücksichtigung der originalen Baumaterialien und Bauweise.</p>
-            <img src="projekt2.jpg" alt="Historische Haus">
+        <div class="reference" style="background-image: url('projekt1.jpg');">
+            <div class="reference-content">
+                <h2>Projekt 1: Neubau eines Bürogebäudes</h2>
+                <p>Dieses Projekt umfasst die Tragwerksplanung eines modernen Bürogebäudes im Stadtzentrum. Das Gebäude bietet 12.000 Quadratmeter Bürofläche und wurde in nur 18 Monaten fertiggestellt.</p>
+            </div>
         </div>
 
-        <div class="reference">
-            <h2>Projekt 3: Erweiterung einer Fluchttreppe</h2>
-            <p>Im Rahmen der Nutzungsänderung eines Gebäudes wurde eine bestehende Fluchttreppe modifiziert. Die Erweiterung umfasste den Einbau von fünf Treppenläufen mit Geländern und vier Zwischenpodesten. Dank unserer langjährigen Erfahrung im Stahlbau konnte eine konstruktionstechnisch präzise und montagefreundliche Lösung entwickelt werden, die alle Brandschutzanforderungen erfüllt. Unsere Leistungen umfassten den Entwurf, die statische Berechnung sowie die Werkplanung für die Fertigung der einzelnen Bauteile. Sämtliche Pläne wurden aus einem zentralen 3D-Modell abgeleitet, was für eine hohe Genauigkeit und Fehlerfreiheit sorgte.</p>
-            <img src="projekt3.gif" alt="Wohnkomplex">
+        <div class="reference" style="background-image: url('projekt2.jpg');">
+            <div class="reference-content">
+                <h2>Projekt 2: Sanierung eines historischen Hauses</h2>
+                <p>Bei diesem Projekt handelte es sich um die komplexe Sanierung eines 1895 erbauten historischen Hauses. Die Tragwerksplanung erforderte eine besondere Berücksichtigung der originalen Baumaterialien und Bauweise.</p>
+            </div>
         </div>
 
-        <a href="index.html">Zurück zur Hauptseite</a>
+        <div class="reference" style="background-image: url('projekt3.gif');">
+            <div class="reference-content">
+                <h2>Projekt 3: Erweiterung einer Fluchttreppe</h2>
+                <p>Im Rahmen der Nutzungsänderung eines Gebäudes wurde eine bestehende Fluchttreppe modifiziert. Die Erweiterung umfasste den Einbau von fünf Treppenläufen mit Geländern und vier Zwischenpodesten.</p>
+            </div>
+        </div>
+
+        <div class="nav">
+            <a href="index.html">Zurück zur Hauptseite</a>
+        </div>
     </div>
 
 </body>
