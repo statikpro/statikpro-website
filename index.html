@@ -1,132 +1,132 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StatikPro Engineering</title>
-    <link rel="icon" href="logo.png" type="image/x-icon">
-    <style>
-        /* Basis-Reset und Styling */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            line-height: 1.6;
-            padding: 20px;
-        }
-
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #003366;
-        }
-
-        p {
-            font-size: 18px;
-            margin-bottom: 15px;
-        }
-
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            color: #003366;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-
-        /* Flexibles Layout für die Texte und Leistungen */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        .grid-item {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-
-        .grid-item:hover {
-            transform: translateY(-5px);
-        }
-
-        .logo {
-            display: block;
-            margin-left: 0%;
-            margin-right: auto;
-            width: 30%; /* Prozentuale Anpassung an Bildschirmbreite */
-            max-width: 200px; /* Begrenzung auf maximale Größe */
-            height: auto; /* Seitenverhältnis beibehalten */
-        }
-
-        /* Responsive Styles */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 24px;
-            }
-
-            p {
-                font-size: 16px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PlanungPro bietet BIM-Modellierung, CAD-Dienstleistungen, IFC-Koordination und digitale Planungsunterstützung im Bauwesen.">
+  <title>PlanungPro | BIM- und CAD-Dienstleistungen im Bauwesen</title>
+  <link rel="icon" href="logo.webp" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="container">
-        <h1>Willkommen, StatikPro Engineering – Ihr Partner für sichere Bauprojekte!</h1>
-        <img src="logo.webp" alt="StatikPro Logo" class="logo">
-
-        <p><strong>StatikPro – Zuverlässige Fachleute für innovative und tragfähige Lösungen.</strong></p>
-
-        <nav>
-            <a href="ueber-uns.html">Über Uns</a> |
-            <a href="referenzen.html">Referenzen</a> |
-            <a href="kontakt.html">Kontakt</a> |
-            <a href="Imp.HTML">Impressum</a>
-        </nav>
-
-        <h2>Unsere Leistungen</h2>
-
-        <div class="grid">
-            <div class="grid-item">
-                <h3>Vor- und Entwurfsplanung</h3>
-                <p>3D-Modellierung des Objekts: Erstellung detaillierter dreidimensionaler Modelle zur Visualisierung und Planung.</p>
-                <p>Vordimensionierung der Haupttragglieder: Erste Dimensionierung der tragenden Strukturen, um die grundsätzliche Tragfähigkeit zu gewährleisten.</p>
-            </div>
-
-            <div class="grid-item">
-                <h3>Genehmigungsplanung</h3>
-                <p>Verfeinerung des 3D-Modells: Detaillierte Anpassung und Optimierung des Modells entsprechend den Genehmigungsanforderungen.</p>
-                <p>Erstellung der erforderlichen statischen Berechnungen und Positionspläne: Präzise Berechnungen und Pläne zur Erfüllung aller gesetzlichen Anforderungen und zur Sicherstellung der Stabilität.</p>
-            </div>
-
-            <div class="grid-item">
-                <h3>Ausführungsplanung</h3>
-                <p>Erstellung von Schal-, Konstruktions- und Bewehrungsplänen: Detaillierte Pläne für die Umsetzung der Bauarbeiten.</p>
-                <p>Begleitung bei der Ausführung: Unterstützung und Überwachung der Bauausführung zur Sicherstellung der korrekten Umsetzung der Pläne.</p>
-            </div>
-        </div>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="PlanungPro Startseite">
+        <span class="brand-mark">PP</span>
+        <span>PlanungPro <small>BIM · CAD · 3D-Modellierung</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Hauptnavigation">
+        <a href="index.html">Start</a>
+        <a href="ueber-uns.html">Über mich</a>
+        <a href="referenzen.html">Leistungsbeispiele</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="Imp.HTML">Impressum</a>
+      </nav>
     </div>
-</body>
+  </header>
 
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Digitale Planung für Bauprojekte</span>
+          <h1>BIM-, CAD- und 3D‑Modellierung mit technischem Verständnis.</h1>
+          <p class="lead">PlanungPro unterstützt Architekten, Ingenieurbüros und ausführende Firmen bei der digitalen Aufbereitung von Bauprojekten – von 3D‑Modellen über Planableitungen bis zur IFC‑Koordination.</p>
+          <div class="actions">
+            <a class="btn" href="kontakt.html">Projekt anfragen</a>
+            <a class="btn secondary" href="#leistungen">Leistungen ansehen</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="BIM Visualisierung">
+          <span class="eyebrow">BIM-ready Workflow</span>
+          <h2>Modelle, Pläne und Koordination aus einer Hand.</h2>
+          <div class="model-lines"></div>
+          <div class="stat-row">
+            <div class="stat"><strong>3D</strong><span>Modellierung</span></div>
+            <div class="stat"><strong>IFC</strong><span>Koordination</span></div>
+            <div class="stat"><strong>CAD</strong><span>Planservice</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="leistungen">
+      <div class="container">
+        <div class="section-head">
+          <h2>Leistungen</h2>
+          <p>Pragmatische Unterstützung für Planung, Koordination und Ausführung – besonders dort, wo 2D‑Pläne, 3D‑Modelle und bautechnische Anforderungen zusammenpassen müssen.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="icon">01</div>
+            <h3>BIM- und 3D‑Modellierung</h3>
+            <p>Erstellung und Bearbeitung von Gebäudemodellen für Entwurf, Abstimmung, Ausführung und Bestandsdokumentation.</p>
+            <ul>
+              <li>Modellierung von Bauteilen und Tragstrukturen</li>
+              <li>Aufbereitung von Bestands- und Planungsdaten</li>
+              <li>3D‑Darstellungen für Projektbesprechungen</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="icon">02</div>
+            <h3>CAD- und Planservice</h3>
+            <p>Unterstützung bei technischen Zeichnungen, Planüberarbeitung und sauberer digitaler Planstruktur.</p>
+            <ul>
+              <li>2D‑Zeichnungen und Planableitungen</li>
+              <li>Überarbeitung vorhandener Pläne</li>
+              <li>Strukturierte Planunterlagen für Abstimmungen</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="icon">03</div>
+            <h3>IFC- und BIM‑Koordination</h3>
+            <p>Prüfung und Koordination von Modellen für eine bessere Zusammenarbeit zwischen Planung und Ausführung.</p>
+            <ul>
+              <li>IFC‑Aufbereitung und Modellprüfung</li>
+              <li>Kollisions- und Plausibilitätskontrolle</li>
+              <li>Abstimmung zwischen Architektur, Tragwerk und Ausführung</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="section-head">
+          <h2>Technisches Verständnis statt reiner Modellierung.</h2>
+          <p>Der Mehrwert liegt nicht nur im Zeichnen, sondern im bautechnischen Denken: Welche Bauteile sind tragend? Wo entstehen Konflikte? Welche Informationen braucht die Ausführung?</p>
+        </div>
+        <div class="card">
+          <h3>Geeignet für</h3>
+          <ul>
+            <li>Architekturbüros mit Bedarf an zusätzlicher BIM-/CAD‑Kapazität</li>
+            <li>Ingenieurbüros, die Modelle oder Planunterlagen aufbereiten möchten</li>
+            <li>Ausführende Firmen, die technische 3D‑Darstellungen oder Koordinationsmodelle benötigen</li>
+            <li>Projektteams, die vorhandene Planunterlagen digital strukturieren möchten</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container">
+        <div class="cta">
+          <div>
+            <h2>Sie möchten ein Projekt digital vorbereiten?</h2>
+            <p>Senden Sie vorhandene Pläne, Skizzen oder IFC‑Daten. Ich prüfe den Umfang und melde mich mit einem passenden Vorschlag zur weiteren Bearbeitung.</p>
+          </div>
+          <a class="btn" href="kontakt.html">Kontakt aufnehmen</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 PlanungPro</span>
+      <span><a href="Imp.HTML">Impressum</a> · <a href="kontakt.html">Kontakt</a></span>
+    </div>
+  </footer>
+</body>
 </html>

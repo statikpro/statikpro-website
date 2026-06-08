@@ -1,188 +1,83 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
-    <style>
-        body {
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-
-        h1 {
-            color: #333;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        .content-wrapper {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-            background-color: #f4f4f9;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .intro {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #555;
-        }
-
-        .contact-info {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-
-        .contact-info h2 {
-            color: #007BFF;
-            margin-bottom: 10px;
-        }
-
-        .contact-info p {
-            font-size: 18px;
-            color: #333;
-        }
-
-        .contact-info a {
-            display: inline-block;
-            color: #007BFF;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-
-        .email-info {
-            text-align: center;
-            margin-top: 30px;
-        }
-
-        .email-info p {
-            font-size: 20px;
-            margin-bottom: 10px;
-            color: #007BFF;
-        }
-
-        .email-info a {
-            font-size: 22px;
-            color: #333;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .email-info a:hover {
-            color: #0056b3;
-        }
-
-        .contact-form {
-            margin-top: 40px;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .contact-form h2 {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #007BFF;
-        }
-
-        .contact-form label {
-            font-weight: bold;
-            display: block;
-            margin-top: 10px;
-        }
-
-        .contact-form input,
-        .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        .contact-form button {
-            margin-top: 15px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .contact-form button:hover {
-            background-color: #0056b3;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #666;
-        }
-
-        .footer a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-
-        .footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kontakt zu PlanungPro für BIM-, CAD- und 3D-Modellierungsleistungen im Bauwesen.">
+  <title>Kontakt | PlanungPro</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <h1>Kontakt</h1>
-
-    <div class="content-wrapper">
-        <div class="intro">
-            <p>Wir sind hier, um Ihre Fragen zu beantworten. Kontaktieren Sie uns gerne jederzeit über die untenstehende E-Mail-Adresse oder nutzen Sie unsere Telefonnummern und Social-Media-Links.</p>
-        </div>
-
-        <div class="contact-info">
-            <h2>Kontaktinformationen</h2>
-            <p>Telefonnummer: <strong>+49 1747132930</strong></p>
-            <p>Telegram: <a href="https://t.me/StatikPro_Engineering" target="_blank">Hier klicken</a></p>
-            <p>WhatsApp: <a href="https://wa.me/491747132930" target="_blank">Hier klicken</a></p>
-        </div>
-
-        <div class="email-info">
-            <p>Sie können uns direkt per E-Mail kontaktieren:</p>
-            <a href="mailto:statikpro.engineering@gmail.com">statikpro.engineering@gmail.com</a>
-        </div>
-
-        <div class="contact-form">
-            <h2>Kontaktformular</h2>
-            <form action="https://formspree.io/f/mannlyka" method="POST">
-                <label for="name">Ihr Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Ihre E-Mail-Adresse:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Ihre Nachricht:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Nachricht senden</button>
-            </form>
-        </div>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="brand-mark">PP</span><span>PlanungPro <small>BIM · CAD · 3D-Modellierung</small></span></a>
+      <nav class="nav-links">
+        <a href="index.html">Start</a>
+        <a href="ueber-uns.html">Über mich</a>
+        <a href="referenzen.html">Leistungsbeispiele</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="Imp.HTML">Impressum</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="footer">
-        <p><a href="index.html">Zurück zur Hauptseite</a></p>
+  <main>
+    <section class="hero">
+      <div class="container split">
+        <div>
+          <span class="eyebrow">Kontakt</span>
+          <h1>Projektunterlagen senden und Umfang abstimmen.</h1>
+          <p class="lead">Für eine erste Einschätzung reichen meist kurze Angaben zum Projekt, vorhandene Pläne oder IFC‑Daten und das gewünschte Ziel der Bearbeitung.</p>
+          <div class="actions">
+            <a class="btn" href="mailto:statikpro.engineering@gmail.com">E-Mail schreiben</a>
+            <a class="btn secondary" href="https://wa.me/491747132930" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Kontaktinformationen</h3>
+          <p><strong>Telefon:</strong> +49 174 7132930</p>
+          <p><strong>E-Mail:</strong> <a href="mailto:statikpro.engineering@gmail.com">statikpro.engineering@gmail.com</a></p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/491747132930" target="_blank" rel="noopener">Nachricht senden</a></p>
+          <p><strong>Telegram:</strong> <a href="https://t.me/StatikPro_Engineering" target="_blank" rel="noopener">Nachricht senden</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container split">
+        <div class="section-head">
+          <h2>Anfrageformular</h2>
+          <p>Beschreiben Sie kurz das Projekt, vorhandene Unterlagen und die gewünschte Leistung. Ich melde mich anschließend zur Klärung des Umfangs.</p>
+          <div class="note">
+            Sinnvolle Angaben: Gebäudetyp, Leistungsziel, vorhandene Dateiformate, gewünschter Termin und ob ein 3D‑Modell, CAD‑Plan oder IFC‑Check benötigt wird.
+          </div>
+        </div>
+        <div class="card">
+          <form class="form" action="https://formspree.io/f/mannlyka" method="POST">
+            <div>
+              <label for="name">Ihr Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="email">Ihre E-Mail-Adresse</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="message">Ihre Nachricht</label>
+              <textarea id="message" name="message" required placeholder="Kurze Projektbeschreibung, gewünschte Leistung, vorhandene Unterlagen..."></textarea>
+            </div>
+            <button class="btn" type="submit">Nachricht senden</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 PlanungPro</span>
+      <span><a href="index.html">Start</a> · <a href="Imp.HTML">Impressum</a></span>
     </div>
-
+  </footer>
 </body>
 </html>
