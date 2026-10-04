@@ -233,3 +233,12 @@ textarea { min-height: 150px; resize: vertical; }
   .stat-row { grid-template-columns: 1fr; }
   .card, .cta, .hero-card { padding: 24px; }
 }
+
+/* Spam-Schutz fuer das Kontaktformular */
+.spam-field {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+}
