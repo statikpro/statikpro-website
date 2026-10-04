@@ -54,6 +54,11 @@
         </div>
         <div class="card">
           <form class="form" action="https://formspree.io/f/mannlyka" method="POST">
+            <!-- Spam-Schutz: Dieses Feld bleibt für Besucher unsichtbar. -->
+            <div class="spam-field" aria-hidden="true">
+              <label for="website">Website</label>
+              <input type="text" id="website" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
             <div>
               <label for="name">Ihr Name</label>
               <input type="text" id="name" name="name" required>
